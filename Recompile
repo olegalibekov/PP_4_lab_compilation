@@ -1,0 +1,15 @@
+#!/bin/bash
+
+cd ~/Desktop/kafka-3.1.0-src/
+
+rm -rf /tmp/kafka-logs /tmp/kafka-streams /tmp/zookeeper
+
+gnome-terminal --window-with-profile=PP_4 -- ./bin/zookeeper-server-start.sh config/zookeeper.properties
+gnome-terminal --window-with-profile=PP_4 -- ./bin/kafka-server-start.sh config/server.properties
+
+./bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic streams-plaintext-input
+./bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic streams-wordcount-output --config cleanup.policy=compact
+
+# gnome-terminal --window-with-profile=PP_4 -- ./bin/kafka-run-class.sh org.apache.kafka.streams.examples.wordcount.WordCountDemoCustom
+
+# gnome-terminal --window-with-profile=PP_4 -- ./bin/kafka-console-consumer.sh --bootstrap-server localhost:9092     --topic streams-wordcount-output     --from-beginning     --formatter kafka.tools.DefaultMessageFormatter     --property print.key=true     --property print.value=true     --property key.deserializer=org.apache.kafka.common.serialization.StringDeserializer     --property value.deserializer=org.apache.kafka.common.serialization.LongDeserializer

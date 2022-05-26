@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kafka-3.1.0-src" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/clients" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/connect" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/connect/api" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/connect/basic-auth-extension" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/connect/file" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/connect/json" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/connect/mirror" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/connect/mirror-client" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/connect/runtime" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/connect/transforms" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/core" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/examples" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/generator" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/jmh-benchmarks" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/log4j-appender" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/metadata" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/raft" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/server-common" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/shell" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/storage" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/storage/api" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/streams" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/streams/examples" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/streams/streams-scala" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/streams/test-utils" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/streams/upgrade-system-tests-0100" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/streams/upgrade-system-tests-0101" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/streams/upgrade-system-tests-0102" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/streams/upgrade-system-tests-0110" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/streams/upgrade-system-tests-10" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/streams/upgrade-system-tests-11" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/streams/upgrade-system-tests-20" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/streams/upgrade-system-tests-21" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/streams/upgrade-system-tests-22" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/streams/upgrade-system-tests-23" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/streams/upgrade-system-tests-24" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/streams/upgrade-system-tests-25" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/streams/upgrade-system-tests-26" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/streams/upgrade-system-tests-27" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/streams/upgrade-system-tests-28" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/tools" />
+            <option value="$PROJECT_DIR$/kafka-3.1.0-src/trogdor" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
